@@ -325,6 +325,8 @@ i,button {
     display: flex;
     align-items: center;
     background-color: #f1f1f1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .code-navbar {
     width: 100%;
@@ -391,6 +393,169 @@ i,button {
     font-size: 18px;
     margin-left: -600px;
 }
+
+.w3-spaces-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292b36;
+}
+.w3-spaces-container h1 {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 55px;
+    color: white;
+}
+.w3-spaces-container h3 {
+    color: white;
+    margin-bottom: 50px;
+}
+.w3-spaces-container button {
+    margin-bottom: 40px;
+    background-color: #05aa6d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 280px;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+.w3-spaces-container img {
+    width: 70%;
+    height: 300px;
+}
+
+.color-picker {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3ecea;
+}
+.color-picker h1 {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+.color-picker h6 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.code-game {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #96d4d4;
+}
+.code-game h1 {
+    margin-top: 80px;
+    font-family: 'Freckle Face', cursive;
+    font-size: 50px;
+    font-weight: 100;
+}
+.code-game h3 {
+    margin-bottom: 30px;
+    font-family: 'Freckle Face', cursive;
+    font-size: 30px;
+    font-weight: 100;
+}
+.code-game button {
+    margin-top: 30px;
+    background-color: #292b36;
+    color: white;
+    border: none;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.exercises {
+    width: 100%;
+    height: 70vh;
+    background-color: #222632;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exercises h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.exercises p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.btn-div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#Exercises-btn {
+    background-color: #05a66c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 37%;
+    height: 65%;
+    margin: 0px 50px 0px 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Quizzes-btn {
+    background-color: #f8eda0;
+    border: none;
+    border-radius: 5px;
+    width: 37%;
+    height: 65%;
+    margin: 0px 50px 0px 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.web-templates {
+    width: 100%;
+    height: 110vh;
+    background-color: #e7e9eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.web-templates h1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 40px ;
+}
+.web-templates img {
+    margin-top: 30px;
+    width: 65%;
+    height: 50%;
+}
+.web-templates button {
+    margin-top: 40px;
+    background-color: #282a35;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    height: 8%;
+}
+
+
+
 
 
 
